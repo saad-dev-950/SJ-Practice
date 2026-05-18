@@ -1,0 +1,226 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    background-color: #691c32;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.imgLogo {
+    transition: transform 0.5s ease;
+}
+
+.imgLogo:hover {
+    transform: scale(1.15);
+}
+
+/* Hero Section */
+#hero {
+    background-color: #691c30;
+    position: relative;
+    background: linear-gradient(135deg, #5b1028, #8b1c3d);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#hero::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    background: #ffffff;
+    clip-path: polygon(0 40%, 100% 100%, 0 100%);
+    animation: diagonalMove 7s ease-in-out infinite alternate;
+}
+
+/* Section 2 */
+.imgBoy {
+    transition: transform 0.3s ease;
+}
+
+.imgBoy:hover {
+    transform: scale(1.15);
+}
+
+/* Section 3 */
+#section3 {
+    background-color: #691c32;
+}
+
+#imgBoy {
+    transition: transform 0.3s ease;
+}
+
+#imgBoy:hover {
+    transform: scale(1.35);
+}
+
+/* Section 4 */
+
+#section4 .card {
+    cursor: default;
+}
+
+#section4 h1 {
+    color: #691c32;
+}
+
+#section4 a {
+    color: #691c32;
+    text-decoration: none;
+}
+
+#cardButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#cardButtons button {
+    padding: 8px 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#cardButtons #btn1 {
+    background-color: #691c32;
+    color: white;
+}
+
+#cardButtons #btn1:hover {
+    background-color: #1d3557;
+    color: white;
+    transition: 0.5s all;
+}
+
+#cardButtons #btn2 {
+    background-color: white;
+    color: #691c32;
+    font-weight: 600;
+}
+
+#cardButtons #btn2:hover {
+    background-color: #691c32;
+    color: white;
+    transition: 0.5s all;
+}
+
+/* Section 5 */
+
+#section5 h1 {
+    color: #691c32;
+    font-weight: bold;
+}
+
+#section5 p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+#sec6 {
+    background-color: #691c32;
+    border-radius: 10px;
+}
+
+/* Accordian */
+
+.accordion-item button {
+    font-weight: bold;
+}
+
+.accordion-item a {
+    color: #691c32;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.accordion-button:focus {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #691c32;
+}
+
+/* Col 2 Links */
+
+#siteLinks p {
+    font-weight: 600;
+    color: white;
+}
+
+#siteLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+#siteLinks a:hover {
+    text-decoration: underline;
+}
+
+/* Col 3 About gob.mx*/
+
+#gobMx {
+    font-weight: 600;
+    color: white;
+    cursor: default;
+}
+
+#aboutGobMx a {
+    color: white;
+    text-decoration: none;
+}
+
+#aboutGobMx a:hover {
+    text-decoration: underline;
+}
+
+/* Col 4 Social Links */
+
+#complaintLink {
+    color: white;
+    font-size: 13px;
+}
+
+#social-links a {
+    color: white;
+}
+
+#social-links img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+#social-links img:hover {
+    transform: scale(1.40);
+}
+
+
+
+/* Animation */
+@keyframes diagonalMove {
+    0% {
+        clip-path: polygon(0 45%, 100% 100%, 0 100%);
+    }
+    100% {
+        clip-path: polygon(0 35%, 100% 100%, 0 100%);
+    }
+}
