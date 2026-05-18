@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS 5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Icon -->
+    <link rel="icon" href="Assets/Images/SJ.png">
+    <title>SJ | Help Center</title>
+</head>
+
+<body class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <h3><a href="index.html">SJ</a></h3>
+                <h5 class="ms-3 text-white">| Help Center</h5>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="ms-auto">
+                        <a href="signIn.html" id="join-btn">Join Now</a>
+                        <a href="signIn.html" id="sign-btn">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="mt-5">How can we help?</h1>
+            <input type="search" name="" id="searchHelp" placeholder="Type a question, topic or issue"
+                class="form-control">
+            <div id="pop-topics" class="gap-2">
+                <p class="mt-3">Popular topics:</p> <a href="">How to sign up for SJ,</a>
+                <a href="">Plans & Pricing,</a>
+                <a href="">Can't sign in to SJ,</a>
+                <a href="">Parental controls on SJ</a>
+            </div>
+        </div>
+    </main>
+
+    <footer style=" background: linear-gradient(to right,#000000,#2b0000,#6b0000);">
+        <div class="container d-flex mt-4 gap-3">
+            <h4 class="text-white">Need more help?</h4>
+            <a href="contact.html" id="cntct-btn">Contact Us</a>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex flex-column my-5">
+                    <div>
+                        <select name="" id="select-lang" title="Select your preferred language:">
+                            <option value="" disabled>Select a language</option>
+                            <option value="">English</option>
+                            <option value="">Urdu</option>
+                            <option value="">Chinese (Simplified)</option>
+                            <option value="">Chinese (Traditional)</option>
+                            <option value="">Arabic</option>
+                            <option value="">Hindi</option>
+                            <option value="">Indonesian</option>
+                            <option value="">Malay</option>
+                            <option value="">Thai</option>
+                            <option value="">Russian</option>
+                            <option value="">Spanish</option>
+                            <option value="">Turkish</option>
+                            <option value="">Filipino</option>
+                            <option value="">French</option>
+                        </select>
+                    </div>
+                    <a href="termsOfUsage.html" class="mt-3">Terms of Use</a>
+                    <a href="privacy.html" class="my-3">Privacy</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Cookie Preferences</a>
+                    <a href="corporate.html" class="my-3">Corporate Information</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="text-center">
+                        <p class="text-white">
+                            &copy; 2026 | Designed by SJ | All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">SJ</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex gap-5 align-items-center">
+                            <h1 style="color: red; cursor: default;">SJ</h1>
+                            <h6>Privacy Preference Center</h6>
+                        </div>
+                        <div class="card py-2 px-3">
+                            <h6>General Description</h6>
+                            <p>
+                                This cookie tool will help you understand the use of cookies on the SJ service, and
+                                how
+                                you can control the use of these cookies.
+                            </p>
+                            <p>
+                                Privacy settings in most browsers allow you to prevent your browser from accepting some
+                                or
+                                all cookies, notify you when it receives a new cookie, or disable cookies altogether. If
+                                your browser disables all cookies, then information will not be collected or stored via
+                                the
+                                cookies listed in this tool. This means that your use of the SJ service may be
+                                impaired.
+                            </p>
+                            <p>
+                                Please note that when you use this cookie tool to opt out of certain cookies, your opt
+                                out preferences are recorded by placing a cookie on your device. Therefore, your browser
+                                must be configured to accept cookies in order for your preferences to take effect. Also,
+                                if you delete or clear your cookies, or change your web browser, you will need to reset
+                                your cookie preferences.
+                            </p>
+                            <p id="modal-links">
+                                For more information on our use of cookies, please visit the <a
+                                    href="privacy.html">Cookies and Internet
+                                    Advertising</a> section of our <a href="privacy.html">Privacy Statement</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="close-btn" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS 5.3.8 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="JS/script.js"></script
+</body>
+</html>

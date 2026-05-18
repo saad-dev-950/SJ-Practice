@@ -1,0 +1,312 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #181818;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header nav a {
+    text-decoration: none;
+    color: red;
+}
+
+#head-span {
+    text-align: right;
+    color: #fff;
+}
+
+#join-btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 7px 35px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#join-btn:hover {
+    transition: 0.5s all;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#sign-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 35px;
+    border-radius: 3px;
+}
+
+#sign-btn:hover {
+    transition: 0.5s all;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.card {
+    height: 100%;
+}
+
+.img-box {
+    height: 250px;
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kids-movies {
+    filter: blur(10px);
+}
+
+.section {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.section h1 {
+    font-size: 2.5rem;
+}
+
+.section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    /* max-width: 600px; */
+    margin: 20px auto;
+}
+
+.section button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 45px;
+}
+
+.section button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s all;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer .row a {
+    color: #737373;
+    text-decoration: none;
+}
+
+footer .row a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#copy-right {
+    color: #737373;
+}
+
+#copy-right:hover {
+    color: white;
+}
+
+#modal-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#modal-links a:hover {
+    text-decoration: underline;
+}
+
+#close-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid #1d3557;
+    padding: 5px 32px;
+    border-radius: 5px;
+}
+
+#close-btn:hover {
+    background-image: linear-gradient(to right, #0b73b7, rgba(109, 168, 0, 0.71));
+    color: white;
+    transition: 0.5s all;
+}
+
+/* contact.html */
+
+#contact-us {
+    font-weight: bold;
+}
+
+/* privacy.html */
+
+#select-lang {
+    background: linear-gradient(to right,
+            #000000,
+            #2b0000,
+            #6b0000);
+    color: #656565;
+    padding: 13px 100px 13px 16px;
+}
+
+/* corporate.html */
+
+.label-cntry {
+    border: 2px solid #1d3557;
+    border-radius: 8px;
+    /* color: red; */
+}
+
+.label-cntry:hover {
+    background-image: linear-gradient(to right, #0b73b7, rgba(109, 168, 0, 0.71));
+}
+
+#select-region {
+    padding: 10px 15px;
+}
+
+#cont-link {
+    color: #e50914;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#cont {
+    line-height: 10px;
+}
+
+#feedback-suggestion {
+    display: flex;
+    justify-content: start;
+}
+
+#feedback-suggestion a {
+    color: black;
+    margin: 0 5px 0 15px;
+}
+
+#feedback-suggestion a:hover {
+    color: #656565;
+}
+
+#cntct-btn {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+#cntct-btn:hover {
+    background-image: linear-gradient(to right, #0b73b7, rgba(109, 168, 0, 0.71));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+/* signIn.html */
+
+#h1SignIn {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#h2SignIn {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+#emailSignIn {
+    width: 50%;
+    padding: 8px 16px;
+    color: white;
+    background: transparent;
+}
+
+#emailSignIn::placeholder {
+    color: #737373;
+}
+
+#btnSignIn {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#btnSignIn:hover {
+    background-image: linear-gradient(to right, #0b73b7, rgba(109, 168, 0, 0.71));
+}
+
+/* faq.html */
+
+#print-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #777;
+}
+
+#print-btn:hover {
+    background-image: linear-gradient(to right, #0b73b7, rgba(109, 168, 0, 0.71));
+    color: white;
+    transition: 0.5s all;
+}
+
+.p-note {
+    border-left: 4px solid silver;
+    padding-left: 10px;
+}
+
+/* help.html */
+
+#searchHelp {
+    width: 50%;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(45deg, red, blue) border-box;
+}
+
+#pop-topics {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#pop-topics a {
+    color: #737373;
+}
+
+#pop-topics a:hover {
+    color: black;
+    transition: 0.5s all;
+}
