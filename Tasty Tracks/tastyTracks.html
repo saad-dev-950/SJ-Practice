@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5.3.8 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Icon -->
+    <link rel="icon" href="Assets/Images/Tasty Tracks.webp">
+    <title>Tasty Tracks | Expansion</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav2">
+            <div class="container">
+                <h3>
+                    <a class="navbar-brand text-warning fw-bold" href="index.html">Tasty Tracks</a>
+                </h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tastyTracks.html">Tasty Tracks Expansion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="text-center text-warning mt-5">Franchising</h1>
+
+            <form action="">
+
+                <div class="row">
+                    <h4 class="text-white">Name</h4>
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <input type="text" placeholder="Enter Your First Name" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <input type="text" placeholder="Enter Your Last Name" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-white mt-4">Email</h4>
+                        <input type="email" placeholder="Enter Your Email here:" class="form-control d-block">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-white mt-4">Phone</h4>
+                        <input type="tel" placeholder="Enter Your Mobile Number here:" class="form-control d-block">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-white mt-4">City</h4>
+                        <input type="text" placeholder="Enter Your City Name here:" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-white mt-4">Investment Capability *</h4>
+                        <input type="text" placeholder="Min 10 Lack" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-white mt-4">Message</h4>
+                        <textarea name="" id="message" rows="4" class="form-control"></textarea>
+                        <button class="btn" id="submitButton" onclick="submitBtn()">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container p-3">
+            <h1 class="text-warning text-center p-3">Tasty Tracks</h1>
+            <div class="row">
+
+                <!-- Menu -->
+                <div class="col-12 col-md-3 col-lg-4">
+                    <h3 class="text-white mt-5 mt-lg-0">Menu</h3>
+                    <div class="d-flex flex-column" id="footer-links">
+                        <a href="index.html#Deals">Deals</a>
+                        <a href="index.html#Burger">Burger</a>
+                        <a href="index.html#Pizza">Pizza</a>
+                        <a href="index.html#Quick-Bites">Quick Bites</a>
+                        <a href="index.html#Fries">Fries</a>
+                    </div>
+                </div>
+
+                <!-- Tasty Tracks -->
+                <div class="col-12 col-md-3 col-lg-4">
+                    <h3 class="text-white mt-5 mt-lg-0">Tasty Tracks</h3>
+                    <div id="tasty-tracks" class="d-flex flex-column">
+                        <a href="about.html">About Us</a>
+                        <a href="tastyTracks.html">Ranchers Expansion</a>
+                    </div>
+                </div>
+
+                <!-- Follow Us -->
+                <div class="col-12 col-md-3 col-lg-4">
+                    <h3 class="text-white mb-3 mt-5 mt-lg-0">Follow Us</h3>
+                    <div id="social-links" class="d-flex gap-3">
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-center text-white mt-5" id="copyright">&copy; 2026 | Designed by SJ | All Rights
+                        Reserved.</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3.8 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
