@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS 5.3.8 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- SJ Icon / Logo -->
+    <link rel="icon" href="Assets/Images/SJ Logo.png">
+    <title>Template | Made by SJ</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">SJ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <div id="about">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-12 col-md-6">
+                        <h1 class="text-primary text-decoration-underline">SJ AI Solutions</h1>
+                        <h3>Empowering Businesses with Next-Gen AI & Tech Solutions 🚀</h3>
+                        <p>
+                            Hi, I’m <strong class="text-primary text-decoration-underline">Saad Nadeem</strong>. We
+                            specialize in transforming ideas
+                            into powerful digital realities.
+                            From intelligent automation to seamless user experiences, our team delivers high-end
+                            technology
+                            services tailored to scale your business.
+                        </p>
+                        <h3>Our Core Expertise:</h3>
+                        <p>
+                            🔹 AI Chatbots: Smart, 24/7 automated customer engagement. <br>
+                            🔹 Web & App Development: High-performance, responsive, and user-centric platforms. <br>
+                            🔹 Software Development: Custom enterprise solutions for complex workflows. <br>
+                            🔹 LMS (Learning Management Systems): Scalable digital education environments. <br>
+                            🔹 Google Extensions & Plugins: Enhancing functionality and productivity with custom tools.
+                        </p>
+                        <p>
+                            Let’s build the future together!
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="Assets/Images/SJ AI Solutions.png" class="img-fluid mt-2" id="sjAIServices"
+                            alt="SJ AI Solutions">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <div id="services">
+            <div class="container">
+                <h3>Our Services:</h3>
+                <div class="row my-5">
+                    <div class="col-12 col-md-6 col-lg-3 mb-2">
+                        <div class="card p-3 h-100">Web & App Development</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-2">
+                        <div class="card p-3 h-100">AI Chatbots</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-2">
+                        <div class="card p-3 h-100">LMS (Learning Management System)</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-2">
+                        <div class="card p-3 h-100">Software Development</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact">
+            <div class="container my-5">
+                <h3>Contact Us:</h3>
+                <form action="" id="contactForm">
+                    <input type="text" class="form-control" required placeholder="Enter your first name">
+                    <input type="text" class="form-control my-2" placeholder="Enter your last name">
+                    <input type="email" class="form-control my-2" required placeholder="Enter your email address">
+                    <textarea class="form-control my-2" required placeholder="Enter your message" rows="5"></textarea>
+                    <button type="submit" class="btn btn-danger">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0 p-3 text-white text-center">
+                        &copy; <span id="year"></span> | Designed by SJ | All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS 5.3.8 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
